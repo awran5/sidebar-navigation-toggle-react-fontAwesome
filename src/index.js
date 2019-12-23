@@ -19,7 +19,7 @@ function App() {
 					</a>
 				</div>
 
-				<div className={`sidebar ${isOpen ? 'sidebar--open' : ''}`}>
+				<div className={`sidebar${isOpen ? ' sidebar--open' : ''}`}>
 					<div className="trigger" onClick={handleTrigger}>
 						<FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
 					</div>
